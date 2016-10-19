@@ -16,6 +16,8 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
     HTTP 401: Bad Request
 
     HTTP 403: Params Missing
+    
+    HTTP 405: not found in DB
 
     HTTP 409: Conflict
 
@@ -340,6 +342,21 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 * POST /food/foodDic/modifyArticle
 * POST /food/foodDic/deleteArticle
 * POST /food/foodDic/searchArticle
+
+
+* POST /search/barcode
+
+> Params
+
+    apikey : User's Apikey [String]
+
+    barcode : barcode number [String]
+
+> Response
+
+    HTTP 200 : Success
+
+    HTTP 405 : not found
 
 ## Database Schema
 
