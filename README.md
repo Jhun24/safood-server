@@ -374,7 +374,11 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 
 > profileImage : User's Profile Image Address [String]
 
-> history : User's Search History [Array]
+> history : 
+
+>> foodname: [String]
+
+>> searchdate: [Date]
 
 >> Array Contains ONLY food's id
 
