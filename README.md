@@ -386,6 +386,48 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 
     HTTP 405 : not found
 
+* POST /group/memo
+
+> Params
+
+    groupid : groupid [String]
+
+> Response
+
+    HTTP 200 : Success send memo
+
+    HTTP 405 : not found
+
+* POST /group/memoAdd
+
+> Params
+
+    title : title [String]
+    content : content [String]
+    color : color [Number]
+    foods : foods [String]
+    groupid : groupid [String]
+
+> Response
+
+    HTTP 200 : Success addmemo
+
+    HTTP 405 : not found
+    
+* POST /food/create
+
+> Params
+
+    name : name [String]
+    material : material [String]
+    content : content [Number]
+    file : file (food image)
+
+> Response
+
+    HTTP 200 : Success addmemo
+
+    HTTP 405 : not found
 
 ## Database Schema
 
