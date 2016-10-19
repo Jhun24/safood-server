@@ -358,6 +358,23 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 
     HTTP 405 : not found
 
+* POST /food/create
+
+> Params
+
+    name : food name [String]
+
+    material : food contain material [String]
+    
+    content : content
+
+> Response
+
+    HTTP 200 : Success
+
+    HTTP 405 : not found
+
+
 ## Database Schema
 
 ### User
@@ -410,21 +427,13 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 
 > name : Food's Name [String]
 
-> weight : Food's weight [String]
-
-> weightUnit : Food's weight unit [String]
+> thumbnail : Food's thumbnail [String]
 
 > barcode : Food's barcode [String]
-
-> foodType : Food's type [String]
 
 > foodAllergic : Food's allergic ingredient [String]
 
 > foodIngredient : Food's full ingredient [String]
-
-> foodCalorie : Food's calorie [Number]
-
-> foodOnceIntake : Food's recommended intake at once [String]
 
 ### SafoodGroup
 
