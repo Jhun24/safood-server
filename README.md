@@ -357,6 +357,18 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
     HTTP 200 : Success
 
     HTTP 405 : not found
+    
+* POST /search/
+
+> Params
+
+    foodname : foodname [String]
+
+> Response
+
+    HTTP 200 : Success
+
+    HTTP 405 : not found   
 
 * POST /food/create
 
