@@ -351,6 +351,8 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
     apikey : User's Apikey [String]
 
     barcode : barcode number [String]
+    
+    date: date
 
 > Response
 
