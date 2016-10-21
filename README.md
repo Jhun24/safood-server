@@ -264,10 +264,11 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
     groupid : Group's id [String]
 
     admin : User, which will be admin of this group [String]
+				
 
 > Response
 
-    HTTP 200 : return Group
+    HTTP 200 : return Group (if group image is defult will return defult as String)
 
     HTTP 409 : Group Tag Conflict
 
