@@ -257,6 +257,8 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 
 > Params
 
+				file: group thumnail image [file]
+
     groupname : Group's name [String]
 
     groupid : Group's id [String]
