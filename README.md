@@ -265,6 +265,8 @@ Safood Project (Samsung Junior Software Cup 2016) Node.JS Backend
 
     admin : User, which will be admin of this group [String]
 				
+				limit: limit group [Number]
+				
 
 > Response
 
